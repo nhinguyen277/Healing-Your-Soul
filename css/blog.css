@@ -1,0 +1,268 @@
+body {
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: black;
+}
+
+h3 {
+    color: #2eaa51;
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+a:active {
+    color: #2eaa51
+}
+
+.sidenav {
+    margin-top: 40px;
+    width: 160px;
+    background-color: #4f775a;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+    height: 550px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+}
+
+.sidenav h2 {
+    color: #fff;
+}
+
+.box {
+    position: sticky;
+    top: 0;
+    width: 99.7%;
+    background: #ffffff;
+    display: flex;
+    border: 2px;
+    border-color: #7cea9c;
+    border-style: dotted;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 30px;
+    width: 1045px;
+    align-items: center;
+    background-color: #FFF;
+    position: relative;
+    justify-content: space-between;
+}
+
+.logo-name {
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_image {
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.logo {
+    font-family: Young Serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.side {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 90px;
+    height: 85px;
+}
+
+.title {
+    font-family: Young Serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pro {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.product {
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 100px;
+    height: 140px;
+}
+
+.centre {
+    width: 60%;
+    padding: 10px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.img {
+    width: 650px;
+}
+
+.right {
+    margin-top: 40px;
+    width: 20%;
+    padding: 10px;
+    background-color: #FFF;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    float: right;
+    height: 550px;
+}
+
+.right h2 {
+    font-family: Young Serif;
+    font-weight: bold;
+    text-align: center;
+    color: #2eaa51;
+}
+
+.new {
+    margin-left: 40px;
+    color: black
+}
+
+#main {
+    display: block;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #cdeac7
+}
+
+.link {
+    max-width: 1045px;
+    margin-left: 100px;
+    width: calc(100% - 20px);
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Young Serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    border-radius: 2em 10em 4em 2em;
+}
+
+.button1 {
+    background-color: #acdda3;
+}
+
+.button2 {
+    background-color: #7cea9c;
+}
+
+.button3 {
+    background-color: #55d67a;
+}
+
+.submit {
+    border: none;
+    border-radius: 5em 5em;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Young Serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 4px 2px;
+    background-color: #acdda3;
+}
+
+.submit1 {
+    border: none;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Young Serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    background-color: #acdda3;
+}
+
+#comments {
+    text-align: center;
+    background-color: #ddf1da;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+    /* border-radius: 20em 20em; */
+}
+
+.text {
+    width: 500px;
+    height: 100px;
+}
+
+.text1 {
+    width: 500px;
+    height: 20px;
+}
+
+#footer {
+    margin-top: 1940px;
+    height: 180px;
+    background: #cdeac7;
+}
+
+#footerlast {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.foot {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.foot a:hover {
+    color: #4f775a;
+}
